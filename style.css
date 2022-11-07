@@ -11,6 +11,11 @@
   --bg: url(./assets/bg-yellow.svg);
 }
 
+header img {
+  width: 300px;
+  height: 300px;
+}
+
 body.blue {
   --card-color-primary: #338af3;
   --card-title-border-color: #338af3;
@@ -87,6 +92,11 @@ header {
   color: #e1e1e1;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.card ul img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .card ul {
